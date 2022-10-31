@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["upload.wikimedia.org", "images.squarespace-cdn.com"],
+    domains: ["upload.wikimedia.org", "images.squarespace-cdn.com", "links.papareact.com", "a0.muscache.com"],
   },
 };
 
