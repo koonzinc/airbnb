@@ -10,6 +10,7 @@ const LargeCard = ({ img, title, description, buttonText }) => {
           src={img}
           width={6000}
           height={2000}
+          alt="#"
           className="object-cover rounded-2xl"
         />
       </div>

@@ -20,6 +20,7 @@ const Header = () => {
           objectPosition="left"
           width={118}
           height={54}
+          alt="#"
         />
       </div>
 

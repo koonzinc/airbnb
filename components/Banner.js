@@ -7,6 +7,7 @@ const Banner = () => {
         src="https://images.squarespace-cdn.com/content/v1/572625bee707eb7c1fd6a5eb/1614096661575-7X13CDWQ0YLN6XYNHVEW/44-45_FINAL5_BIG.jpg?format=2500w"
         width="1772"
         height="1010"
+        alt="#"
         className="w-full h-full object-cover opacity-50"
       />
       <div className="absolute top-1/2 w-full text-center">

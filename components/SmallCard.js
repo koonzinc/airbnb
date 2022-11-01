@@ -11,6 +11,7 @@ const SmallCard = ({ img, location, distance }) => {
           layout="fill"
           width={240}
           height={240}
+          alt='#'
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
