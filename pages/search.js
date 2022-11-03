@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
-import Map from "../components/Map";
+import MapComponent from "../components/MapComponent";
 
 const Search = () => {
   const router = useRouter();
@@ -140,11 +140,10 @@ const Search = () => {
           </div>
         </section>
 
-        <section className="hidden xl:inline-flex xl: min-w-[600px]">
-            <Map />
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+          <MapComponent />
         </section>
       </main>
-
 
       <Footer />
     </div>

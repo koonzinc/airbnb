@@ -12,8 +12,13 @@ const nextConfig = {
   },
   env: {
     mapbox:
-      "pk.eyJ1Ijoid2tvb256IiwiYSI6ImNsOXlqbmpzeDA1ajQzb3FsYXh0Zzdib2IifQ.08Aw8dK_3_YubWnWU5440w",
+      "pk.eyJ1Ijoid2tvb256IiwiYSI6ImNsYTE3dW83ZjA0dm4zbnBxOWFjNHQ5emYifQ.rG0jMKGGTOSejtEoZkIGSw",
   },
 };
 
 module.exports = nextConfig;
+
+
+// public token: pk.eyJ1Ijoid2tvb256IiwiYSI6ImNsYTE3dW83ZjA0dm4zbnBxOWFjNHQ5emYifQ.rG0jMKGGTOSejtEoZkIGSw
+// access token: pk.eyJ1Ijoid2tvb256IiwiYSI6ImNsYTE3dW83ZjA0dm4zbnBxOWFjNHQ5emYifQ.rG0jMKGGTOSejtEoZkIGSw
+// style url: mapbox://styles/wkoonz/cl9yjr8pw000v14o01n8fgboe
