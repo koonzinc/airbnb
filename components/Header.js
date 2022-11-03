@@ -10,9 +10,9 @@ import {
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { DateRangePicker } from "react-date-range";
-import {useRouter} from 'next/dist/client/router';
+import { useRouter } from "next/dist/client/router";
 
-const Header = ({placeholder}) => {
+const Header = ({ placeholder }) => {
   const [searchInput, setSearchInput] = useState("");
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
@@ -36,25 +36,25 @@ const Header = ({placeholder}) => {
 
   const search = () => {
     router.push({
-      pathname: '/search',
+      pathname: "/search",
       query: {
         location: searchInput,
         startDate: startDate.toISOString(),
         endDate: endDate.toISOString(),
-        numOfGuests: numOfGuests
-      }
-    })
-  }
+        numOfGuests: numOfGuests,
+      },
+    });
+  };
 
   return (
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
       {/* Left */}
-      <div onClick={() => router.push('/')} className="relative flex items-center h-10 cursor-pointer my-auto">
+      <div
+        onClick={() => router.push("/")}
+        className="relative flex items-center h-10 cursor-pointer my-auto"
+      >
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
-          layout="fill"
-          objectFit="contain"
-          objectPosition="left"
           width={118}
           height={54}
           alt="#"
@@ -108,7 +108,9 @@ const Header = ({placeholder}) => {
             <button onClick={resetInput} className="flex-grow text-gray-500">
               Cancel
             </button>
-            <button onClick={search} className="flex-grow text-red-400">Search</button>
+            <button onClick={search} className="flex-grow text-red-400">
+              Search
+            </button>
           </div>
         </div>
       )}

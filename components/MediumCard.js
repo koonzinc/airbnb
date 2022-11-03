@@ -8,7 +8,6 @@ const MediumCard = ({ img, title }) => {
         <Image
           className="w-full h-full object-cover rounded-xl"
           src={img}
-          layout="fill"
           width={1152}
           alt="#"
           height={1152}

@@ -140,7 +140,7 @@ const Search = () => {
           </div>
         </section>
 
-        <section className="">
+        <section className="hidden xl:inline-flex xl: min-w-[600px]">
             <Map />
         </section>
       </main>
