@@ -9,13 +9,13 @@ import {
 } from "@heroicons/react/solid";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
-import { DateRangePicker } from "react-date-range";
+import { DateRangePicker, moment } from "react-date-range";
 import { useRouter } from "next/dist/client/router";
 
 const Header = ({ placeholder }) => {
   const [searchInput, setSearchInput] = useState("");
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
+  const [startDate, setStartDate] = useState();
+  const [endDate, setEndDate] = useState();
   const [numOfGuests, setNumOfGuests] = useState(1);
   const router = useRouter();
 
@@ -33,6 +33,8 @@ const Header = ({ placeholder }) => {
   const resetInput = () => {
     setSearchInput("");
   };
+
+
 
   const search = () => {
     router.push({
