@@ -8,7 +8,9 @@ const MapComponent = () => {
       viewState={{
         longitude: -122.4,
         latitude: 37.8,
-        zoom: 14
+        zoom: 11, 
+        width: '100%',
+        height: '100%'
       }}
     ></Map>
   );
