@@ -10,7 +10,7 @@ const MediumCard = ({ img, title }) => {
           src={img}
           width={1152}
           alt="#"
-          height={1151}
+          height={1152}
         />
       </div>
       <h3 className="text-2xl mt-3 ">{title}</h3>
